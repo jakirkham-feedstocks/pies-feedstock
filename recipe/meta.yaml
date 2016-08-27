@@ -20,13 +20,13 @@ requirements:
     - python
     - setuptools
     - pies2overrides  # [py2k]
-    - enum34          # [py<34]
+    - enum34          # [py2k or (py3k and py<34)]
     - argparse        # [py3k and py<33]
     - ordereddict     # [py3k and py<33]
   run:
     - python
     - pies2overrides  # [py2k]
-    - enum34          # [py<34]
+    - enum34          # [py2k or (py3k and py<34)]
     - argparse        # [py3k and py<33]
     - ordereddict     # [py3k and py<33]
 
